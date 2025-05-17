@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+e0b9af00802aa42c15abb8537338f525 CMakeFiles/CalorieCalculator_autogen
+57725cd158c073d43bc0babac6a2278d CalorieCalculator_autogen/timestamp

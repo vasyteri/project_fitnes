@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle">
+   <string>Калькулятор калорий</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <widget class="QWidget" name="tabUserData">
+       <attribute name="title">
+        <string>Данные</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_UserData">
+        <item>
+         <widget class="QLabel" name="userInfoLabel"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="heightLineEdit">
+          <property name="placeholderText">
+           <string>Введите ваш рост</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="weightLineEdit">
+          <property name="placeholderText">
+           <string>Введите ваш вес</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="submitUserDataButton">
+          <property name="text">
+           <string>Подтвердить данные</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabProducts">
+       <attribute name="title">
+        <string>Продукты</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_Products">
+        <item>
+         <widget class="QLineEdit" name="searchLineEdit">
+          <property name="placeholderText">
+           <string>Поиск продукта</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="searchButton">
+          <property name="text">
+           <string>Искать</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="showAllProductsButton">
+          <property name="text">
+           <string>Показать все продукты</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableView" name="searchResultsTableView"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="addToCartButton">
+          <property name="text">
+           <string>Добавить в корзину</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabCart">
+       <attribute name="title">
+        <string>Корзина</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_Cart">
+        <item>
+         <widget class="QTableView" name="cartTableView"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="removeFromCartButton">
+          <property name="text">
+           <string>Удалить из корзины</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="totalCaloriesLabel"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="totalProteinsLabel"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="totalFatsLabel"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="totalCarbsLabel"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="dailyPercentageLabel"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

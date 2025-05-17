@@ -1,0 +1,5 @@
+/home/tevirp/fitnes/CalorieCalculator/build/CMakeFiles/CalorieCalculator.dir
+/home/tevirp/fitnes/CalorieCalculator/build/CMakeFiles/edit_cache.dir
+/home/tevirp/fitnes/CalorieCalculator/build/CMakeFiles/rebuild_cache.dir
+/home/tevirp/fitnes/CalorieCalculator/build/CMakeFiles/CalorieCalculator_autogen_timestamp_deps.dir
+/home/tevirp/fitnes/CalorieCalculator/build/CMakeFiles/CalorieCalculator_autogen.dir

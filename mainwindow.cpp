@@ -7,6 +7,10 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
 
+    // Установите текстовые подсказки
+    ui->heightLineEdit->setPlaceholderText("Введите ваш рост");
+    ui->weightLineEdit->setPlaceholderText("Введите ваш вес");
+
     searchResultsModel = new QStandardItemModel(this);
     cartModel = new QStandardItemModel(this);
 
@@ -41,11 +45,11 @@ void MainWindow::loadDatabase() {
 }
 
 void MainWindow::showWelcomeScreen() {
-    ui->stackedWidget->setCurrentIndex(0);
+    ui->tabWidget->setCurrentIndex(0);
 }
 
 void MainWindow::showMainScreen() {
-    ui->stackedWidget->setCurrentIndex(1);
+    ui->tabWidget->setCurrentIndex(1);
     showUserInfo();
 }
 
@@ -98,8 +102,6 @@ void MainWindow::onSearchClicked() {
         QMessageBox::information(this, "Результаты поиска", "Продукты не найдены.");
     }
 }
-
-
 void MainWindow::onAddToCartClicked() {
     QModelIndexList selected = ui->searchResultsTableView->selectionModel()->selectedRows();
     if (selected.isEmpty()) {
@@ -165,12 +167,12 @@ void MainWindow::updateCartSummary() {
         cartModel->appendRow(items);
     }
 
-    ui->totalCaloriesLabel->setText(QString::number(cart.getTotalCalories()));
-    ui->totalProteinsLabel->setText(QString::number(cart.getTotalProteins()));
-    ui->totalFatsLabel->setText(QString::number(cart.getTotalFats()));
-    ui->totalCarbsLabel->setText(QString::number(cart.getTotalCarbs()));
+    ui->totalCaloriesLabel->setText(QString("Калории: %1 ккал").arg(cart.getTotalCalories()));
+    ui->totalProteinsLabel->setText(QString("Белки: %1 г").arg(cart.getTotalProteins()));
+    ui->totalFatsLabel->setText(QString("Жиры: %1 г").arg(cart.getTotalFats()));
+    ui->totalCarbsLabel->setText(QString("Углеводы: %1 г").arg(cart.getTotalCarbs()));
 
     double percentage = (user.getDailyCalories() > 0) ?
         (cart.getTotalCalories() / user.getDailyCalories() * 100) : 0;
-    ui->dailyPercentageLabel->setText(QString("%1%").arg(percentage, 0, 'f', 1));
+    ui->dailyPercentageLabel->setText(QString("От дневной нормы: %1%").arg(percentage, 0, 'f', 1));
 }
