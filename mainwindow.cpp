@@ -7,7 +7,6 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
 
-    // Установите текстовые подсказки
     ui->heightLineEdit->setPlaceholderText("Введите ваш рост");
     ui->weightLineEdit->setPlaceholderText("Введите ваш вес");
 
@@ -149,7 +148,6 @@ void MainWindow::onShowAllProductsClicked() {
 }
 
 void MainWindow::onCartItemSelected(const QModelIndex &index) {
-    // Можно добавить дополнительную информацию о выбранном продукте
     Q_UNUSED(index);
 }
 

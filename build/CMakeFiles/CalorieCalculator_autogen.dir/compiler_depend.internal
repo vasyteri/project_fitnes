@@ -10,12 +10,14 @@
  /home/tevirp/fitnes/CalorieCalculator/mainwindow.cpp
  /home/tevirp/fitnes/CalorieCalculator/mainwindow.h
  /home/tevirp/fitnes/CalorieCalculator/mainwindow.ui
+ /home/tevirp/fitnes/CalorieCalculator/product.cpp
  /home/tevirp/fitnes/CalorieCalculator/product.h
  /home/tevirp/fitnes/CalorieCalculator/productdatabase.cpp
  /home/tevirp/fitnes/CalorieCalculator/productdatabase.h
  /home/tevirp/fitnes/CalorieCalculator/products.txt
  /home/tevirp/fitnes/CalorieCalculator/shoppingcart.cpp
  /home/tevirp/fitnes/CalorieCalculator/shoppingcart.h
+ /home/tevirp/fitnes/CalorieCalculator/user.cpp
  /home/tevirp/fitnes/CalorieCalculator/user.h
  /snap/cmake/1463/bin/cmake
  /snap/cmake/1463/share/cmake-4.0/Modules/CMakeCXXInformation.cmake

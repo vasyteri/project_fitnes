@@ -28,14 +28,10 @@ set(HEADERS
     shoppingcart.h
 )
 
-# Добавление UI-формы
 qt6_wrap_ui(FORMS_HEADERS MainWindow.ui)
 
-# Создание исполняемого файла
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS} ${FORMS_HEADERS})
 
-# Подключение Qt-модулей
 target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Widgets)
 
-# Копирование файла с продуктами
 configure_file(products.txt ${CMAKE_CURRENT_BINARY_DIR}/products.txt COPYONLY)

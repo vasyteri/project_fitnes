@@ -9,12 +9,14 @@ CalorieCalculator_autogen/timestamp: /home/tevirp/fitnes/CalorieCalculator/CMake
   /home/tevirp/fitnes/CalorieCalculator/mainwindow.cpp \
   /home/tevirp/fitnes/CalorieCalculator/mainwindow.h \
   /home/tevirp/fitnes/CalorieCalculator/mainwindow.ui \
+  /home/tevirp/fitnes/CalorieCalculator/product.cpp \
   /home/tevirp/fitnes/CalorieCalculator/product.h \
   /home/tevirp/fitnes/CalorieCalculator/productdatabase.cpp \
   /home/tevirp/fitnes/CalorieCalculator/productdatabase.h \
   /home/tevirp/fitnes/CalorieCalculator/products.txt \
   /home/tevirp/fitnes/CalorieCalculator/shoppingcart.cpp \
   /home/tevirp/fitnes/CalorieCalculator/shoppingcart.h \
+  /home/tevirp/fitnes/CalorieCalculator/user.cpp \
   /home/tevirp/fitnes/CalorieCalculator/user.h \
   /snap/cmake/1463/bin/cmake \
   /snap/cmake/1463/share/cmake-4.0/Modules/CMakeCXXInformation.cmake \
@@ -813,6 +815,12 @@ CalorieCalculator_autogen/timestamp: /home/tevirp/fitnes/CalorieCalculator/CMake
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets-none.cmake:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
 /usr/include/c++/13/bits/unique_ptr.h:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
@@ -875,9 +883,9 @@ CalorieCalculator_autogen/timestamp: /home/tevirp/fitnes/CalorieCalculator/CMake
 
 /usr/include/c++/13/debug/assertions.h:
 
-/usr/include/c++/13/bits/functional_hash.h:
-
 /usr/include/c++/13/bits/exception_defines.h:
+
+/usr/include/c++/13/bits/functional_hash.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -951,12 +959,6 @@ CalorieCalculator_autogen/timestamp: /home/tevirp/fitnes/CalorieCalculator/CMake
 
 /usr/include/c++/13/bits/list.tcc:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets-none.cmake:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake:
@@ -992,34 +994,6 @@ CalorieCalculator_autogen/moc_predefs.h:
 /usr/include/c++/13/bits/char_traits.h:
 
 /home/tevirp/fitnes/CalorieCalculator/main.cpp:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qstringliteral.h:
-
-/usr/include/c++/13/bits/utility.h:
-
-/usr/include/c++/13/bits/stl_construct.h:
-
-CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
-
-/snap/cmake/1463/share/cmake-4.0/Modules/FindOpenGL.cmake:
-
-/snap/cmake/1463/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:
-
-/snap/cmake/1463/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/snap/cmake/1463/share/cmake-4.0/Modules/CMakeCXXInformation.cmake:
-
-/usr/include/c++/13/bits/stl_raw_storage_iter.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qsystemdetection.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /snap/cmake/1463/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake:
 
@@ -1071,6 +1045,52 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /usr/include/c++/13/bits/erase_if.h:
 
+/usr/include/locale.h:
+
+/snap/cmake/1463/share/cmake-4.0/Modules/MacroAddFileDependencies.cmake:
+
+/usr/include/c++/13/bits/stl_raw_storage_iter.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:
+
+/snap/cmake/1463/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/snap/cmake/1463/share/cmake-4.0/Modules/CMakeCXXInformation.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qsystemdetection.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/bits/iterator_concepts.h:
+
+/usr/include/c++/13/functional:
+
+/home/tevirp/fitnes/CalorieCalculator/user.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake:
+
+/usr/include/stdint.h:
+
+/home/tevirp/fitnes/CalorieCalculator/mainwindow.cpp:
+
+/home/tevirp/fitnes/CalorieCalculator/product.cpp:
+
+/snap/cmake/1463/share/cmake-4.0/Modules/FindOpenGL.cmake:
+
+/snap/cmake/1463/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake:
+
+/snap/cmake/1463/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h:
 
 /usr/include/c++/13/bits/stl_iterator.h:
@@ -1083,20 +1103,6 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /usr/include/c++/13/bits/c++0x_warning.h:
 
-/home/tevirp/fitnes/CalorieCalculator/mainwindow.cpp:
-
-/home/tevirp/fitnes/CalorieCalculator/user.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake:
-
-/usr/include/stdint.h:
-
-/snap/cmake/1463/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
 /snap/cmake/1463/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake:
 
 /snap/cmake/1463/share/cmake-4.0/Modules/Linker/GNU.cmake:
@@ -1105,15 +1111,23 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/c++/13/cctype:
-
 /snap/cmake/1463/share/cmake-4.0/Modules/CheckIncludeFileCXX.cmake:
 
 /usr/include/c++/13/list:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qstringliteral.h:
+
+/usr/include/c++/13/bits/utility.h:
+
+/usr/include/c++/13/bits/stl_construct.h:
+
+CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
+
 /usr/include/c++/13/bits/uses_allocator.h:
 
 /usr/include/c++/13/bits/basic_string.h:
+
+/home/tevirp/fitnes/CalorieCalculator/user.cpp:
 
 /home/tevirp/fitnes/CalorieCalculator/mainwindow.h:
 
@@ -1121,31 +1135,7 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/c++/13/bits/vector.tcc:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h:
-
-/usr/include/c++/13/cstdint:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
-/usr/include/c++/13/bits/ranges_algo.h:
-
 /home/tevirp/fitnes/CalorieCalculator/mainwindow.ui:
-
-/usr/include/locale.h:
-
-/snap/cmake/1463/share/cmake-4.0/Modules/MacroAddFileDependencies.cmake:
-
-/usr/include/c++/13/bits/allocator.h:
-
-/usr/include/c++/13/bits/iterator_concepts.h:
-
-/usr/include/c++/13/functional:
 
 /usr/include/c++/13/bits/move_only_function.h:
 
@@ -1191,6 +1181,20 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /usr/include/c++/13/map:
 
+/usr/include/c++/13/bits/vector.tcc:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h:
+
+/usr/include/c++/13/cstdint:
+
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/include/c++/13/bits/ranges_algo.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qstandarditemmodel.h:
 
 /snap/cmake/1463/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake:
@@ -1205,15 +1209,15 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
-/snap/cmake/1463/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
 
 /usr/include/c++/13/array:
 
 /usr/include/c++/13/variant:
+
+/snap/cmake/1463/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /snap/cmake/1463/share/cmake-4.0/Modules/FindThreads.cmake:
 
@@ -1319,14 +1323,6 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
-/usr/include/c++/13/cerrno:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qpair.h:
-
-/usr/include/c++/13/tr1/hypergeometric.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
 /snap/cmake/1463/share/cmake-4.0/Modules/FeatureSummary.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
@@ -1350,6 +1346,16 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets-none.cmake:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/c++/13/cctype:
+
+/usr/include/c++/13/cerrno:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qpair.h:
+
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
@@ -1645,6 +1651,12 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/snap/cmake/1463/share/cmake-4.0/Modules/FindVulkan.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfig.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
@@ -1664,9 +1676,3 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 /usr/include/c++/13/bits/algorithmfwd.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/snap/cmake/1463/share/cmake-4.0/Modules/FindVulkan.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
